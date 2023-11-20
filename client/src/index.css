@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Reset básico */
+/* Establece los estilos predeterminados del navegador en valores consistentes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Establece un estilo básico para el cuerpo del documento */
+body {
+  line-height: 1.6;
+}
+
+/* Elimina el margen en los elementos de lista y establece un estilo básico para las listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Asegura que las imágenes sean responsivas y no desborden sus contenedores */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Añade un estilo básico para los enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Puedes agregar más estilos según sea necesario para tu proyecto */
